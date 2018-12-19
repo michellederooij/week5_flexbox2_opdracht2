@@ -32,7 +32,6 @@ body {
 .navigation-list {
     align-items: center;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     list-style: none;
 }
@@ -46,7 +45,7 @@ body {
 }
 .mid-section {
     display: flex;
-    flex: 1;
+    flex: 0 1 auto;
 }
 .sidebar {
     background-color: #FF6B53;
@@ -63,7 +62,6 @@ body {
 .main-section-top {
     background-color: white;
     display: flex;
-    flex: 1;
 }
 .main-content {
     padding: 1em 2em;
